@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Agenda>
+    <persona>
+        <nombre>asd</nombre>
+        <telefono>6000000000</telefono>
+        <email>asd@email.com</email>
+        <bloqueado>false</bloqueado>
+    </persona>
+</Agenda>
