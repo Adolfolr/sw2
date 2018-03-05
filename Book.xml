@@ -1,9 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE Agenda [ 
+<!ELEMENT Agenda (persona)*> 
+<!ELEMENT persona (nombre,telefono,email)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+ ]>
 <Agenda>
     <persona>
-        <nombre>asd</nombre>
-        <telefono>6000000000</telefono>
-        <email>asd@email.com</email>
-        <bloqueado>false</bloqueado>
+        <nombre>senior</nombre>
+        <telefono>1234</telefono>
+        <email>qwer</email>
+    </persona>
+    <persona>
+        <nombre>adolfo</nombre>
+        <telefono>1234</telefono>
+        <email>adolfo@mail.com</email>
     </persona>
 </Agenda>

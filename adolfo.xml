@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Persona>
+    <nombre>adolfo</nombre>
+    <telefono>608670670</telefono>
+    <email>adolfo@mail.com</email>
+    <bloqueado>false</bloqueado>
+</Persona>
