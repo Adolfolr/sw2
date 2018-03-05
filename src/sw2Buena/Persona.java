@@ -24,8 +24,6 @@ public class Persona implements Serializable{
     String telefono;
     @XmlElement
     String email;
-    @XmlElement
-    boolean bloqueado;
     
     public Persona(){
     }  
@@ -34,7 +32,6 @@ public class Persona implements Serializable{
         this.nombre = nombre;
         this.telefono = telefono;
         this.email = email;
-        this.bloqueado = bloqueado;
     }
 
     public String getNombre() {
@@ -60,16 +57,5 @@ public class Persona implements Serializable{
     public void setEmail(String email) {
         this.email = email;
     }
-
-    public boolean isBloqueado() {
-        return bloqueado;
-    }
-
-    public void setBloqueado(boolean bloqueado) {
-        this.bloqueado = bloqueado;
-    }
-    
-    
-    
     
 }

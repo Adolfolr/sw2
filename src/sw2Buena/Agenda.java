@@ -26,13 +26,12 @@ public class Agenda implements Serializable{
         this.personas = personas;
     }
 
-    
     public Agenda() {
         personas=new ArrayList<>();        
     }
     
     public void anadirPersona(Persona persona){
         personas.add(persona);
-    }
+    }   
     
 }
