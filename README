@@ -1,0 +1,4 @@
+Run file de Main.java
+Lo primero que hay que hacer es elegir la tercera opción: importar agenda.
+La agenda que ya existe y las que se crean se llaman book.xml
+Los cambios en la agenda sólo se guardan después de elegir la opción “guardar”.
