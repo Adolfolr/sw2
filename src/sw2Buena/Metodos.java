@@ -61,7 +61,6 @@ public class Metodos {
             "<!ELEMENT nombre (#PCDATA)>\n" +
             "<!ELEMENT telefono (#PCDATA)>\n" +
             "<!ELEMENT email (#PCDATA)>\n ]>");
-            marshaller.setProperty(Marshaller.JAXB_FRAGMENT, true);
             marshaller.marshal(agenda, XMLfile);
             marshaller.marshal(agenda, System.out);
             validador.validarXML(XMLfile);
